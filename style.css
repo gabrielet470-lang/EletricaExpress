@@ -248,7 +248,7 @@ form textarea {
     border: none;
 
     outline: none;
-
+color: black;
     background: #fff;
 }
 
@@ -335,14 +335,7 @@ footer {
 
 
 .whatsapp-float {
-    /* position: fixed;
-
-    right: 20px;
-    bottom: 20px;
-
-    z-index: 9999; */
-
-        position: fixed;
+ position: fixed;
     width: 60px;
     height: 60px;
     bottom: 20px;
