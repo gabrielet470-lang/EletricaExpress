@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <a href="https://wa.me/555193070573?text=Quero%20fazer%20um%20or%C3%A7amento%20com%20a%20El%C3%A9trica%20Express"
+        class="whatsapp-float" target="_blank">
+        <img src="whatsapp.png">
+    </a>
+
+    <header class="header">
+
+        <a href="#" class="logo">
+            <img src="logo.png">
+        </a>
+
+        <button class="hamburger" id="hamburger">
+            ☰
+        </button>
+
+        <nav class="nav" id="nav">
+            <a href="index.html">Início</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="agendamento.html">Agendar</a>
+        </nav>
+
+    </header>
+
+    <section class="agendamento">
+
+        <form id="formulario">
+
+            <h1>Agendar Atendimento</h1>
+
+            <input type="text" id="nome" placeholder="Seu nome" required>
+
+            <input type="date" id="data" required>
+
+            <input type="time" id="hora" required>
+
+            <select id="servico">
+
+                <option>Elétrica</option>
+                <option>Reparos</option>
+                <option>Instalações</option>
+                <option>Pintura</option>
+
+            </select>
+
+            <input type="text" id="endereco" placeholder="Seu endereço" required>
+
+            <textarea id="mensagem" placeholder="Descreva o serviço"></textarea>
+
+            <button type="submit">
+                Enviar no WhatsApp
+            </button>
+
+        </form>
+
+    </section>
+
+    <script src="eletrica.js"></script>
+
+</body>
+
+</html>
